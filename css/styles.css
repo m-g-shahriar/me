@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+*{
+  margin: 0;
+  padding: 0;
+}
+/* NOTE: Prevent default style sheet */
+h1 {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+h2 {
+
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+.container-fluid {
+
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .bg-dark {
+    background-color: rgba(0,0,0,0)!important;
+}
+.row{
+  margin-right: 0px;
+margin-left: 0px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+a{
+
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+  color: white;
+}
+  /* NOTE: ENd default */
+
+.webDivWork{
+  width: 100%;
+
+}
+.buttonDiv{
+  padding: 20px;
+  color: #ff0f53;
+  font-family:'Righteous', cursive;
+
+
+}
+.buttonDiv:hover{
+
+  color: white;
+  transition: 1s;
+  font-weight:300;
+  cursor: pointer;
+}
+.buttonDiv h2{
+
+  font-size: 24px;
+  border-bottom: 1px solid white;
+}
+.buttonDiv p{
+  color: white;
+
+}
+.leftSideDiv{
+
+  width: 15%;
+
+    float: left;
+
+height: 100vh;
+  display: block;
+
+
+
+}
+.rightSideDiv{
+
+  width: 100%;
+
+
+
+
+}
+
+/* NOTE: About me */
+
+.aboutMe{
+  background: linear-gradient(
+    rgba(128, 124, 116, 0.45),
+    rgb(0, 0, 0)
+  ),url(file:///D:/Shahriar/ALL%20NEEDED/WEB%20DESIGN/BooootStrap/FInal%20Project/Latest%20Portfolio/images/background/headerPicture.jpeg) no-repeat center center fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+
+
+/* NOTE: My image  */
+
+.myImage{
+
+  margin-top: 130px;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 2px solid #beccb5;
+
+}
+
+.myName{
+  color:#c9c95e;
+  text-align: center;
+    font-family:'Monoton', cursive;
+  font-size: 55px;
+}
+.myImage1{
+  display: none;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 2px solid #beccb5;
+
+}
+
+
+/* NOTE: For table */
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* NOTE: End table */
+
+.titileSmall{
+  font-family: 'Lobster', cursive;
+  font-size: 36px;
+  color: #c9c95e;
+
+}
+
+#myVideo {
+
+    background:#1f2021;
+    position: absolute;
+    width: 85%;
+    height: 100vh;
+    margin-top: -18px;
+
+    filter: blur(1px);
+
+}
+.defaultContent{
+
+  position: absolute;
+  top: 100px;
+
+}
+.welcomeTitle{
+  font-size: 65px;
+
+  margin-left: 145px;
+  color:#f44256;
+  text-align: center;
+  text-shadow: 2px 2px #726f6f;
+
+
+    font-family:'Righteous', cursive;
+}
+.aftrWl{
+  margin-left: 15px;
+  text-align: center;
+  color: white;
+}
+.nextDirection{
+  margin-left: 15px;
+  margin-top: 40px;
+  font-size: 25px;
+  text-align: center;
+  color: #f44256;
+}
+
+/* NOTE: BOx for web dev */
+
+.columRow{
+
+}
+.Colum{
+  width: 17%;
+  float: left;
+}
+
+.img_class{
+  width: 200px;
+  height: 140px;
+  border: 6px solid #c1bfc0;
+}
+.img_class:hover{
+
+    transform: rotate(-20deg);\
+
+
+}
+
+
+.androidDevelopment img{
+  width: 200px;
+  height: 300px;
+  border: 6px solid #c1bfc0;
+}
+
+/* NOTE: CUstom box */
+
+.customBox{
+
+
+  padding: 10px;
+
+  font-size: 27px;
+font-family:'Righteous', cursive;
+
+
+}
+.boxColum{
+
+    width: 20%;
+    float: left;
+    border: 3px solid black;
+    margin: 5px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    border-radius: 6px;
+}
